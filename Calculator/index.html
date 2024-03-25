@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <input class = "display" id = "pscreen"></input>
+    <input class = "display" id = "screen"></input>
+    <div class = "buttonrow0">
+        <button onclick="reset()" class="opbutton" id="row0">AC</button>
+        <button onclick="operate('÷')" class="opbutton">÷</button>
+    </div>
+    <div class = "buttonrow1">
+        <button onclick="appendtodis('7')"class="button">7</button>
+        <button onclick="appendtodis('8')" class="button">8</button>
+        <button onclick="appendtodis('9')" class="button">9</button>
+        <button onclick="operate('x')"class="opbutton">x</button>
+    </div>
+    <div class = "buttonrow2">
+        <button onclick="appendtodis('4')" class="button">4</button>
+        <button onclick="appendtodis('5')" class="button">5</button>
+        <button onclick="appendtodis('6')" class="button">6</button>
+        <button onclick="operate('-')"class="opbutton">-</button>
+    </div>
+    <div class = "buttonrow3">
+        <button onclick="appendtodis('3')" class="button">3</button>
+        <button onclick="appendtodis('2')" class="button">2</button>
+        <button onclick="appendtodis('1')" class="button">1</button>
+        <button onclick="operate('+')" class="opbutton">+</button>
+    </div>
+    <div class = "buttonrow4">
+        <button onclick="appendtodis('0')" class="button" id="zero">0</button>
+        <button onclick="appendtodis('.')" class="button">.</button>
+        <button onclick="Calculate()" class="opbutton">=</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

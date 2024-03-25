@@ -1,0 +1,44 @@
+
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+}
+.display{
+    width: 400px;
+    height: 85px;
+    font-size: 45px;
+    color: azure;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(83, 83, 83);
+    font-size: large;
+    color: azure;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.opbutton{
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    font-size: larger;
+    color: azure;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#zero{
+    width: 200px;
+
+    border-radius: 48%;
+}
+#row0{
+    background-color: darkgray;
+    width: 300px;
+    border-radius: 38%;
+}
+
